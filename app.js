@@ -25,3 +25,16 @@ function eraseContent() {
     document.querySelector(".input4").value = "";
     document.querySelector(".input5").value = "";
 }
+
+function backCol() {
+  var colors = ["red","green","greenyellow","darksalmon","#B028B4","lightblue","orangered","black"]
+
+  var a = (Math.floor(Math.random()*8));
+  var b = colors[a];
+  console.log(b);
+   
+  document.querySelector(".fubar").style.backgroundColor = b;
+  console.log(a);
+}
+
+
