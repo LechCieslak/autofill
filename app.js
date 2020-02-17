@@ -26,8 +26,11 @@ function eraseContent() {
     document.querySelector(".input5").value = "";
 }
 
+
+var colors = ["red","green","greenyellow","darksalmon","#B028B4","lightblue","orangered","black"]
+
 function backCol() {
-  var colors = ["red","green","greenyellow","darksalmon","#B028B4","lightblue","orangered","black"]
+ 
 
   var a = (Math.floor(Math.random()*8));
   var b = colors[a];
@@ -36,5 +39,28 @@ function backCol() {
   document.querySelector(".fubar").style.backgroundColor = b;
   console.log(a);
 }
+
+
+
+
+var idInter;
+
+function changeCol() {
+  idInter = setInterval(changeBackCol,1000);  
+}
+
+function changeBackCol() {
+  var elem = document.querySelector(".fubar2");
+
+  var a = (Math.floor(Math.random()*8));
+  var b = colors[a];
+  console.log(b);
+   
+  elem.style.backgroundColor = b;
+  console.log("koniec");
+  
+}
+
+changeCol();
 
 
