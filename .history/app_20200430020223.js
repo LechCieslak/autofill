@@ -40,20 +40,20 @@ function backCol() {
   console.log(a);
 
 
+  var iii;
 
-  printRozne();
+function printRozne() {
+  setInterval(ifffff,1000);
+}
+  
+function ifffff() {
 
-      function printRozne() {
-        iii = setInterval(ifffff,1000);
-      }
-        
-      function ifffff() {
+  if (a!=10) {
+    console.log("rozne")
+  }
+}
 
-        if (a!=10) {
-          console.log("rozne");
-          
-        }
-      }
+
 
 }
 
@@ -80,6 +80,6 @@ function changeBackCol() {
   
 }
 
-changeCol();
+//changeCol();
 
 

@@ -55,6 +55,8 @@ function backCol() {
         }
       }
 
+      console.log("awiectotak!!!!!!!!!!!");
+
 }
 
 

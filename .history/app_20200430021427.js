@@ -51,7 +51,6 @@ function backCol() {
 
         if (a!=10) {
           console.log("rozne");
-          
         }
       }
 
